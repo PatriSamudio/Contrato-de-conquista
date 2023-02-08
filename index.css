@@ -1,0 +1,88 @@
+/*
+  Imagen1: https://manzdev.github.io/eoi-fullstack/css/stewie.png
+  Imagen2: https://manzdev.github.io/eoi-fullstack/css/stewie-seal.png
+*/
+ body{
+    margin: 0;
+ }
+
+  .aviso{
+    background-color: rgb(231, 216, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+  }
+  .aviso:hover{
+
+    background-image: url(stewie.png);
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: 120px;
+    background-attachment: scroll;
+    background-size: 300px;
+
+  }
+  .aviso:active{
+
+    background-image: url(stewie-seal.png);
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: 120px;
+    background-attachment: scroll;
+    background-size: 300px;
+  }
+
+  h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-shadow: 10px 10px 10px rgb(40, 12, 69);
+    color:white;
+    font-size: 50px;
+    min-width: 600px;
+    max-width: 900px;
+    height: 80px;
+    background: rgb(138, 35, 235);
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  #nombre {
+    background-color: rgb(231, 216, 245);
+    border-color: rgb(40, 12, 69);
+    border-style: dotted;
+    border-top-color: rgb(231, 216, 245);
+    border-left-color: rgb(231, 216, 245);
+    border-right-color: rgb(231, 216, 245);
+  }
+
+p{
+    text-align: left;
+    margin: 30px;
+    padding: 5px;
+
+  }
+
+ul li{
+    padding: 5px;
+}
+
+h4{
+
+    font-family: Arial Bold, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow:  3px 2px 2px rgb(40, 12, 69);
+    color:white;
+    font-size: 30px;
+    text-transform:capitalize;
+    min-width: 600px;
+    max-width: 900px;
+    height: 35px;
+    background: rgb(138, 35, 235);
+  }
+
+#stewie{
+
+    width: 00px;
+    height: 00px;
+}
